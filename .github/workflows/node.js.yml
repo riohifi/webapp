@@ -26,7 +26,7 @@ jobs:
         cache: 'npm'
     - run: npm i
     - run: npm test
-    - run: npm build
+    - run: npm run build
     - run: pm2 restart next
     - run: cp -r /home/webmydi/app/actions-runner/webapp/webapp/webapp/* /home/webmydi/app
 
