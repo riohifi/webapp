@@ -6,8 +6,7 @@ export default function Contact() {
   return (
     <div className={styles.container}>
       <div>
-        <h1>Contact page 1</h1>
-        <h1>Contact page 1</h1>
+        <h1>Contact Us</h1>
       </div>
     </div>
   )
