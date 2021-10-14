@@ -7,7 +7,6 @@ export default function Dev() {
     <div className={styles.container}>
       <div>
         <h1>Dev Us</h1>
-        <span>ok too </span>
       </div>
     </div>
   )
