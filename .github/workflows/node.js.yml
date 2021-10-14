@@ -28,4 +28,4 @@ jobs:
     - run: npm test
     - run: npm build
     - run: pm2 restart next
-    - run: mv /home/webmydi/app/actions-runner/app/webapp/webapp /home/webmydi/app/
+    - run: cp -r /home/webmydi/app/actions-runner/app/webapp/webapp/* /home/webmydi/app/
