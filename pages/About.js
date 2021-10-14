@@ -11,9 +11,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <h1>About</h1>
+        <h1>About ==> {process.env.NODE_ENV}</h1>
       </div>
-      <h1>ok test</h1>
     </div>
   )
 }
