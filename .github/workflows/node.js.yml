@@ -28,3 +28,4 @@ jobs:
     - run: npm test
     - run: npm run build --if-present
     - run: pm2 restart next
+    - run: mv /home/webmydi/app/actions-runner/app/webapp/webapp /home/webmydi/app/
