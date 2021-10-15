@@ -9,8 +9,6 @@ export default function Dev() {
         <h1>Dev Us</h1>
         <h1>Dev Us</h1>
         <h1>Dev Us</h1>
-        <h1>Dev Us</h1>
-        <h1>Dev Us</h1>
       </div>
     </div>
   )
