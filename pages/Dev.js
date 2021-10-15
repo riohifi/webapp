@@ -6,10 +6,7 @@ export default function Dev() {
   return (
     <div className={styles.container}>
       <div>
-        <h1>Dev Us</h1>
-        <h1>Dev Us</h1>
-        <h1>Dev Us</h1>
-      </div>
+        <h1>Developer Rio</h1>
     </div>
   )
 }
