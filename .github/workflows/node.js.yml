@@ -29,6 +29,9 @@ jobs:
     - run: npm run build
     - run: cp -r /home/webmydi/app/actions-runner/webapp/webapp/webapp/* /home/webmydi/app
     - run: cp -r /home/webmydi/app/actions-runner/webapp/webapp/webapp/.next/* /home/webmydi/app/.next
+    - run: rm -f -r /home/webmydi/app/_next
+    - run: mkdir /home/webmydi/app/_next
+    - run: cp -r /home/webmydi/app/actions-runner/webapp/webapp/webapp/.next/static/* /home/webmydi/app/_next/static
    # - run: yarn --cwd /home/webmydi/app run build 
    # - run: pm2 restart nextjs
     
