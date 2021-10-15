@@ -27,6 +27,6 @@ jobs:
     - run: npm i
     - run: npm test
     - run: npm run build
-    - run: pm2 restart next
+    - run: pm2 restart nextjs
     - run: cp -r /home/webmydi/app/actions-runner/webapp/webapp/webapp/* /home/webmydi/app
 
