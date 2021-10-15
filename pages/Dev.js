@@ -7,6 +7,7 @@ export default function Dev() {
     <div className={styles.container}>
       
         <h1>Developer Rio</h1>
+        <h1>Welcome to You</h1>
     </div>
   )
 }
