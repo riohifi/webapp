@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 export default function Dev() {
   return (
     <div className={styles.container}>
-      <div>
+      
         <h1>Developer Rio</h1>
     </div>
   )
