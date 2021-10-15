@@ -7,7 +7,7 @@ export default function Contact() {
     <div className={styles.container}>
       <div>
         <h1>Contact Us</h1>
-        <span>Help Me </span>
+        <span>Help Me Rio </span>
       </div>
     </div>
   )
